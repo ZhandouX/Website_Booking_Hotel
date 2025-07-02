@@ -1,0 +1,20 @@
+[
+    {
+        "order_id": "INV-1751467614",
+        "nama": "Yuann",
+        "email": "yuan1@gmail.com",
+        "hp": "0822355324",
+        "total": 300000,
+        "status": "pending",
+        "waktu": "2025-07-02 14:46:55"
+    },
+    {
+        "order_id": "INV-1751470162",
+        "nama": "Zhandou",
+        "email": "zhandou@gmail.com",
+        "hp": "0937823632",
+        "total": 150000,
+        "status": "pending",
+        "waktu": "2025-07-02 15:29:23"
+    }
+]

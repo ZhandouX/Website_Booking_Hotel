@@ -1,0 +1,199 @@
+[
+  {
+    "id": "oyo-azzahra",
+    "nama": "Super OyO 1006 Azzahra Guest House Syariah",
+    "gambar": "images/oyo-azzahra/gedung.jpeg",
+    "harga": "Rp100.000 - Rp500.000 / malam",
+    "alamat": "Jl. Ir. M. Putuhena, Wayame, Tlk. Ambon, Kota Ambon",
+    "fasilitas": [
+      "AC",
+      "Wifi",
+      "Restoran"
+    ],
+    "kategori": "penginapan",
+    "kategoriRating": "Nyaman",
+    "lokasi": "https://maps.app.goo.gl/CYHTJZpkESHgrD6U9",
+    "rating": "⭐⭐",
+    "pemesanan": "Dipesan 3 kali pada tanggal pilihanmu!",
+    "ulasan": "Untuk kamar cukup luas dan cukup bersih, untuk kamar mandi cukup lah. Fasilitas kamar hanya disediakan 3 air mineral gelas. Fasilitas penginapan menyediakan ruangan makan/pantry di lantai 2 terdapat teh dan kopi dan air panas (self service)."
+  },
+
+
+  {
+    "id": "wayame-bay-hotel",
+    "nama": "Wayame Bay Hotel",
+    "gambar": "images/wayame-bay-hotel.jpg",
+    "harga": "Rp100.000 - Rp500.000 / malam",
+    "alamat": "Jl. Ir Putuhena, Kelurahan Wayame, Kecamatan Teluk Ambon, Ambon",
+    "fasilitas": [
+      "Sarapan",
+      "Wifi Gratis",
+      "Restoran"
+    ],
+    "kategori": "hotel",
+    "kategoriRating": "Nyaman",
+    "lokasi": "https://maps.app.goo.gl/Kcjz8vYGfXuufKwP8",
+    "rating": "⭐⭐",
+    "pemesanan": "Dipesan 6 kali pada tanggal pilihanmu!",
+    "ulasan": "Hotel ini sangat cocok untuk liburan atau urusan dinas. Memiliki fasilitas kolam renang dan layanan antar jemput bandara."
+  },
+
+
+  {
+    "id": "santika-hotel",
+    "nama": "Hotel Santika Premiere",
+    "gambar": "images/Santika-hotel.jpeg",
+    "harga": "Rp180.000 - Rp2.000.000 / malam",
+    "alamat": "Jl. Jendral Sudirman No.88, Pusat Kota Ambon, Ambon",
+    "fasilitas": [
+      "Sarapan",
+      "Wifi Gratis",
+      "Kolam Renang",
+      "Bar"
+    ],
+    "kategori": "hotel",
+    "kategoriRating": "Luar Biasa",
+    "lokasi": "https://maps.app.goo.gl/jQ7yE1zwZjDA8Rra7",
+    "rating": "⭐⭐⭐⭐",
+    "pemesanan": "Dipesan 15 kali pada tanggal pilihanmu!",
+    "ulasan": "Hotel yang cukup dekat dengan perkotaan, bisa menikmati sunset kota Ambon yang menawan. Kamarnya lega dan amenities lengkap. Makanan not bad, butuh varian menu lebih beragam. Service perlu ditingkatkan terutama bagian breakfast."
+  },
+
+
+  {
+    "id": "stori-hotel",
+    "nama": "Stori Hotel Ambon",
+    "gambar": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10034219-1000x800-FIT_AND_TRIM-2f6bd9b80cfc11748e6331314322186f.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-80,w-640",
+    "harga": "Rp195.000 - Rp1.600.000 / malam",
+    "alamat": "Jl. Cendrawasih No.20, Pusat Kota Ambon, Ambon",
+    "fasilitas": [
+      "Restoran",
+      "AC",
+      "Wifi Gratis"
+    ],
+    "kategori": "hotel",
+    "kategoriRating": "Mengesankan",
+    "lokasi": "https://maps.app.goo.gl/ibVQvPanJJzfk8qN7",
+    "rating": "⭐⭐⭐",
+    "pemesanan": "Dipesan 10 kali pada tanggal pilihanmu!",
+    "ulasan": "Nyaman, bersih, dan strategis. Cocok untuk liburan atau perjalanan bisnis di Ambon."
+  },
+
+
+  {
+    "id": "RUMARUMA",
+    "nama": "RUMARUMA FERVET RESIDENCE AMBON",
+    "gambar": "images/RUMARUMA-FERVET.jpeg",
+    "harga": "Rp220.000 - Rp600.000 / malam",
+    "alamat": "Jl DR Kayadoe, Kel. Wainutu, Kec. Nusaniwe, Pusat Kota Ambon, Ambon",
+    "fasilitas": [
+      "Shuttle Bandara",
+      "Spa",
+      "Restoran"
+    ],
+    "kategori": "penginapan",
+    "kategoriRating": "Nyaman",
+    "lokasi": "https://maps.app.goo.gl/onBVS915yNdfTFCv5",
+    "rating": "⭐⭐",
+    "pemesanan": "Dipesan 5 kali pada tanggal pilihanmu!",
+    "ulasan": "Harga hotel ini terjangkau dan bagi yang suka foto-foto pasti senang, tapi untuk kamar menurut saya terlalu kecil."
+  },
+
+
+  {
+    "id": "swiss-belhotel",
+    "nama": "Swiss BelHotel Ambon",
+    "gambar": "images/swiss-belhotel.jpeg",
+    "harga": "Rp650.000 - Rp2.000.000 / malam",
+    "alamat": "Jl. Benteng Kapaha, Pelabuhan, Pusat Kota Ambon, Ambon",
+    "fasilitas": [
+      "Shuttle Bandara",
+      "Bar",
+      "Wifi Gratis"
+    ],
+    "kategori": "hotel",
+    "kategoriRating": "Luar Biasa",
+    "lokasi": "https://maps.app.goo.gl/AtdpqS9UhZPhyHYm7",
+    "rating": "⭐⭐⭐⭐",
+    "pemesanan": "Dipesan 16 kali pada tanggal pilihanmu!",
+    "ulasan": "Hotel terbaik dengan lokasi yg stretegjs terletak di tengah kota dan mudah di akses.  pengalaman nginap saya yaitu hotel ini memiliki Kamar yg nyaman, aman dan fasilitas yang baik."
+  },
+
+
+  {
+    "id":"kamari-hotel",
+    "nama": "Kamari Hotel Ambon",
+    "gambar": "images/hotel-kamari/kamari-hotel.jpg",
+    "harga": "Rp350.000 - Rp1.500.000 / malam",
+    "alamat": "Jl. Kakialy No.25, Kedawetan, Kel Rijali, Kec. Sirimau, Pusat Kota Ambon, Ambon",
+    "fasilitas": [
+      "Favorit Pasangan",
+      "Check-In 24 jam",
+      "Wifi Gratis"
+    ],
+    "kategori": "hotel",
+    "kategoriRating": "Mengesankan",
+    "lokasi": "https://maps.app.goo.gl/7GWx6BqM4Kq5L5WF7",
+    "rating": "⭐⭐⭐",
+    "pemesanan": "Dipesan 9 kali pada tanggal pilihanmu!",
+    "ulasan": "Hotel nyama dan oke. Bisa beristirahat dengan tenang. Kamarnya bersih, petugasnya semua pada rmaah_mrmaah, sarapan pagi ada."
+  },
+
+
+  {
+    "id": "marina-hotel",
+    "nama": "Marina Hotel",
+    "gambar": "images/property-02.jpg",
+    "harga": "Rp250.000 - Rp1.400.000 / malam",
+    "alamat": "Jl. Yan Pays 16, Pelabuhan, Ambon",
+    "fasilitas": [
+      "Ruang Keluarga",
+      "Transfer Bandara"
+    ],
+    "kategori": "hotel",
+    "kategoriRating": "Mengesankan",
+    "lokasi": "https://maps.app.goo.gl/pQsP3T8a1JkfQNHH8",
+    "rating": "⭐⭐⭐",
+    "pemesanan": "Dipesan 9 kali pada tanggal pilihanmu!",
+    "ulasan": "Lokasi strategis, mudah dijangkau. Pelayanan sangat baik, karyawan hotel ramah, sopan, bersahabat. Kamarnya rapih, luas, dan sangat bersih."
+  },
+
+
+  {
+    "id": "the-city-hotel",
+    "nama": "The City Hotel",
+    "gambar": "images/property-01.jpg",
+    "harga": "Rp300.000 - Rp600.000 / malam",
+    "alamat": "Jl. Tulukabessy No.39, Pusat Kota Ambon, Ambon",
+    "fasilitas": [
+      "Balkon/teras",
+      "Restoran",
+      "Bar"
+    ],
+    "kategori": "hotel",
+    "kategoriRating": "Mengesankan",
+    "lokasi": "https://maps.app.goo.gl/VhRaGZn9bTir3ULd8",
+    "rating": "⭐⭐⭐",
+    "pemesanan": "Dipesan 9 kali pada tanggal pilihanmu!",
+    "ulasan": "Hotel mewah di bangunan modern ini berjarak 10 menit berjalan kaki dari Gong Perdamaian Dunia, 3 km dari terminal feri Port of Ambon, dan 4 km dari Jembatan Merah Putih yang terkenal."
+  },
+
+  {
+    "id": "the-natsepa-resort",
+    "nama": "The Natsepa Resort & Conference Center",
+    "gambar": "images/property-01.jpg",
+    "harga": "Rp535.650 - Rp3.050.000 / malam",
+    "alamat": "Jl. Raya Natsepa No.36 Suli Salahutu, Baguala, Kota Ambon, Maluku",
+    "fasilitas": [
+      "AC",
+      "Restoran",
+      "Kolam Renang"
+    ],
+    "kategori": "hotel",
+    "kategoriRating": "Mengesankan",
+    "lokasi": "https://maps.app.goo.gl/VhRaGZn9bTir3ULd8",
+    "rating": "⭐⭐⭐⭐",
+    "pemesanan": "Dipesan 16 kali pada tanggal pilihanmu!",
+    "ulasan": "Saya sangat menikmati menginap di Natsepa Hotel Ambon. Pemandangan sisi lautnya sangat menenangkan dan pemandangan indah dari kamar kami. Keramahtamahan hotel ini sangat baik dan kami menyantap beberapa hidangan tradisional dari Ambon, itu menyenangkan. Jika anda perlu naik speedboat dari Ambon, hotel ini lebih dekat dengan pelabuhan Tulehu."
+  }
+]

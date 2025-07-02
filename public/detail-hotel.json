@@ -1,0 +1,599 @@
+{
+  "oyo-azzahra": {
+    "name": "Super OyO 1006 Azzahra Guest House Syariah",
+    "address": "Jl. Ir. M. Putuhena, Wayame, Tlk. Ambon, Kota Ambon",
+    "lokasi": "https://maps.app.goo.gl/CYHTJZpkESHgrD6U9",
+    "description": "Wayame Bay Hotel merupakan salah satu penginapan favorit di Kota Ambon yang menawarkan kenyamanan, lokasi strategis, dan harga terjangkau. Hotel ini memiliki fasilitas lengkap termasuk Wi-Fi, area parkir, serta akses mudah ke pusat kota dan pantai.",
+    "luas": "450 m²",
+
+    "fasilitas_utama": [
+      { "icon": "🛏️", "nama": "AC" },
+      { "icon": "🚗", "nama": "Parkir" },
+      { "icon": "🍽️", "nama": "Restoran" },
+      { "icon": "📶", "nama": "WIFI" }
+    ],
+    "tempat_terdekat": [
+      "Alfamidi (10 km)",
+      "Coto Makassar (50 m)",
+      "Restoran Apong (1 km)",
+      "Klinik Nadiva (1 km)",
+      "Pelabuhan Speed (1.30 km)"
+    ],
+    "status": "Penginapan",
+    "bintang": "⭐ ⭐",
+    "pembayaran": "Tunai/Transfer Bank",
+    "keamanan": "CCTV",
+
+    "gambar_1": "images/oyo-azzahra/gedung.jpeg",
+    "gambar_2": "images/oyo-azzahra/tempat-tidur.jpeg",
+    "gambar_3": "images/oyo-azzahra/restoran.jpeg",
+    "gambar_4": "images/oyo-azzahra/ruang-tidur.jpeg",
+    "gambar_5": "images/oyo-azzahra/kamar-mandi.jpeg",
+
+    "harga_standar":"Rp50.000",
+    "images_standar":"images/oyo-azzahra/tempat-tidur.jpeg",
+    "harga_medium":"Rp150.000",
+    "images_medium":"images/hotel-wayame/medium.jpeg",
+    "harga_mewah":"Rp300.000",
+    "images_mewah":"images/hotel-wayame/mewah.jpeg",
+
+    "fasilitas": "Penginapan ini menyediakan berbagai fasilitas untuk kenyamanan Anda, termasuk Wi-Fi gratis, restoran dalam penginapan, dan AC di setiap kamar.",
+    "lokasi_strategis": "Terletak di Jl. Ir. Putuhena, Wayame, Teluk Ambon, Ambon. Penginapan ini berada dekat pelabuhan, bandara, dan Alfamidi serta pusat perbelanjaan dan kuliner. Hanya membutuhkan waktu ±15 menit ke pusat kota, menjadikannya pilihan ideal bagi wisatawan maupun pelancong bisnis.",
+    "alasan": "Untuk kamar cukup luas dan cukup bersih, untuk kamar mandi cukup lah. Fasilitas kamar hanya disediakan 3 air mineral gelas. Fasilitas penginapan menyediakan ruangan makan/pantry di lantai 2 terdapat teh dan kopi dan air panas (self service).",
+    "tipe_kamar": [
+      "Deluxe - Termasuk sarapan",
+      "Family Suite - Cocok untuk keluarga",
+      "Executive Room - Dengan area kerja",
+      "Luxury Room - Kamar mewah dengan kolam renang pribadi"
+    ],
+    "kebijakan_hotel": [
+      "Check-in mulai pukul 14.00",
+      "Check-out maksimal pukul 12.00",
+      "Gratis pembatalan hingga 24 jam sebelum check-in"
+    ]
+  },
+
+
+  "wayame-bay-hotel": {
+    "name": "Wayame Bay Hotel",
+    "address": "Jl. Ir. M. Putuhena, Wayame, Tlk. Ambon, Kota Ambon",
+    "lokasi":"https://maps.app.goo.gl/Kcjz8vYGfXuufKwP8",
+    "description": "Wayame Bay Hotel merupakan salah satu penginapan favorit di Kota Ambon yang menawarkan kenyamanan, lokasi strategis, dan harga terjangkau. Hotel ini memiliki fasilitas lengkap termasuk Wi-Fi, area parkir, serta akses mudah ke pusat kota dan pantai.",
+    "luas": "450 m²",
+    "fasilitas_utama": [
+      { "icon": "🛏️", "nama": "AC" },
+      { "icon": "🚗", "nama": "Parkir" },
+      { "icon": "🍽️", "nama": "Restoran" },
+      { "icon": "🛗", "nama": "Lift" },
+      { "icon": "📶", "nama": "WIFI" },
+      { "icon": "🕐", "nama": "Resepsionis" }
+    ],
+
+    "tempat_terdekat": [
+      "Toko Planet (500 m)",
+      "Indomaret (10 m)",
+      "Atm BRI (600 m)",
+      "Klinik Nadiva (30 m)",
+      "Restoran Apong (20 m)"
+    ],
+
+    "status": "Siap Pakai",
+    "bintang":"⭐ ⭐",
+    "pembayaran": "Transfer & Kartu Kredit",
+    "keamanan": "CCTV",
+    
+    "gambar_1": "images/wayame-bay-hotel.jpg",
+    "gambar_2": "images/hotel-wayame/standar.jpeg",
+    "gambar_3": "images/hotel-wayame/medium.jpeg",
+    "gambar_4": "images/hotel-wayame/mewah.jpeg",
+    "gambar_5": "images/hotel-wayame/toilet.jpeg",
+
+    "harga_standar":"Rp150.000",
+    "images_standar":"images/hotel-wayame/standar.jpeg",
+    "harga_medium":"Rp300.000",
+    "images_medium":"images/hotel-wayame/medium.jpeg",
+    "harga_mewah":"Rp500.000",
+    "images_mewah":"images/hotel-wayame/mewah.jpeg",
+
+    "fasilitas": "Wayame Bay Hotel menyediakan berbagai fasilitas untuk kenyamanan Anda, termasuk Wi-Fi gratis, restoran dalam hotel, AC di setiap kamar, serta layanan antar-jemput bandara. Tersedia juga ruang meeting dan kolam renang outdoor dengan pemandangan laut.",
+    "lokasi_strategis": "Terletak di Jl. Ir. Putuhena, Wayame, Teluk Ambon, Ambon, hotel ini berada dekat pelabuhan, bandara, serta pusat perbelanjaan dan kuliner. Hanya membutuhkan waktu ±15 menit ke pusat kota, menjadikannya pilihan ideal bagi wisatawan maupun pelancong bisnis.",
+    "alasan": "Dengan pelayanan ramah, lokasi strategis, dan harga terjangkau, Wayame Bay Hotel menjadi pilihan tepat saat menginap di Kota Ambon. Tersedia kamar nyaman, fasilitas lengkap, dan suasana tenang dengan pemandangan laut Ambon yang memukau.",
+    "tipe_kamar": [
+      "Deluxe - Termasuk sarapan",
+      "Family Suite - Cocok untuk keluarga",
+      "Executive Room - Dengan area kerja",
+      "Luxury Room - Kamar mewah dengan kolam renang pribadi"
+    ],
+    "kebijakan_hotel": [
+      "Check-in mulai pukul 14.00",
+      "Check-out maksimal pukul 12.00",
+      "Gratis pembatalan hingga 24 jam sebelum check-in"
+    ]
+  },
+
+
+  "swiss-belhotel": {
+    "name": "Swiss-Belhotel Ambon",
+    "address": "Jl. Benteng Kapaha, Pelabuhan, Pusat Kota Ambon, Ambon",
+    "lokasi": "https://maps.app.goo.gl/AtdpqS9UhZPhyHYm7",
+    "description": "Hotel ini berada di pusat kota Ambon, dekat dengan pusat perbelanjaan, kantor pemerintahan, dan destinasi wisata budaya. Lokasinya sangat strategis bagi pelancong bisnis maupun liburan.",
+    "luas": "600 m²",
+
+    "fasilitas_utama": [
+      { "icon": "🛏️", "nama": "AC" },
+      { "icon": "🚗", "nama": "Parkir" },
+      { "icon": "🍽️", "nama": "Restoran" },
+      { "icon": "🛗", "nama": "Lift" },
+      { "icon": "🏊", "nama": "Kolam Renang" },
+      { "icon": "📶", "nama": "WIFI" },
+      { "icon": "🕐", "nama": "Resepsionis 24 Jam" }
+    ],
+
+    "tempat_terdekat": [
+      "Maluku City Mall (1.04 km)",
+      "Masjid Al Fatah (2.74 km)",
+      "Ambon Manise Square (13 m)",
+      "Happy Kids Klinik (1.24 km)",
+      "Universitas Pattimura (2.70 km)"
+    ],
+
+    "status": "Siap Pakai",
+    "bintang": "⭐ ⭐ ⭐ ⭐",
+    "pembayaran": "Kartu Kredit & Transfer",
+    "keamanan": "CCTV & Security 24 Jam",
+
+    "gambar_1": "images/swiss-belhotel.jpeg",
+    "gambar_2": "images/hotel-swiss/ruang-tidur.jpeg",
+    "gambar_3": "images/hotel-swiss/restoran.jpeg",
+    "gambar_4": "images/hotel-swiss/kamar-tidur.jpeg",
+    "gambar_5": "images/hotel-swiss/toilet.jpeg",
+
+    "harga_standar":"Rp650.000",
+    "images_standar":"images/hotel-wayame/standar.jpeg",
+    "harga_medium":"Rp1.300.000",
+    "images_medium":"images/hotel-wayame/medium.jpeg",
+    "harga_mewah":"Rp2.000.000",
+    "images_mewah":"images/hotel-wayame/mewah.jpeg",
+    "tipe-kamar": [
+      "Deluxe - "
+    ],
+    
+    "fasilitas": "Swiss-Belhotel Ambon menyediakan berbagai fasilitas seperti Wi-Fi gratis, restoran dalam hotel, AC di setiap kamar, serta layanan antar-jemput bandara. Tersedia juga ruang meeting dan kolam renang outdoor.",
+    "lokasi_strategis": "Hotel ini berada di pusat kota Ambon, dekat dengan pusat perbelanjaan, kantor pemerintahan, dan destinasi wisata budaya. Lokasinya sangat strategis bagi pelancong bisnis maupun liburan.",
+    "alasan": "Hotel terbaik dengan lokasi yg stretegis terletak di tengah kota dan mudah di akses.  pengalaman nginap saya yaitu hotel ini memiliki Kamar yg nyaman, aman dan fasilitas yang baik.",
+    "tipe_kamar": [
+      "Deluxe - Termasuk sarapan",
+      "Family Suite - Cocok untuk keluarga",
+      "Executive Room - Dengan area kerja",
+      "Luxury Room - Kamar mewah dengan kolam renang pribadi"
+    ],
+    "kebijakan_hotel": [
+      "Check-in mulai pukul 14.00",
+      "Check-out maksimal pukul 12.00",
+      "Gratis pembatalan hingga 24 jam sebelum check-in"
+    ]
+  },
+
+  
+  "santika-hotel": {
+    "name": "Hotel Santika Premiere",
+    "address": "Jl. Jendral Sudirman No.88, Pusat Kota Ambon, Kota Ambon",
+    "lokasi": "https://maps.app.goo.gl/jQ7yE1zwZjDA8Rra7",
+    "description": "Hotel Santika Premiere Ambon merupakan pilihan akomodasi modern di jantung Kota Ambon yang menggabungkan kenyamanan khas layanan Santika dengan nuansa budaya lokal. Terletak strategis di pusat kota, hotel ini menawarkan pemandangan laut yang menawan, fasilitas lengkap seperti restoran, ruang pertemuan, kolam renang, serta kamar-kamar elegan yang cocok untuk pelancong bisnis maupun wisatawan.",
+    "luas": "600 m²",
+
+    "fasilitas_utama": [
+      { "icon": "🛏️", "nama": "AC" },
+      { "icon": "🚗", "nama": "Parkir" },
+      { "icon": "🍽️", "nama": "Restoran" },
+      { "icon": "🛗", "nama": "Lift" },
+      { "icon": "🏊", "nama": "Kolam Renang" },
+      { "icon": "📶", "nama": "WIFI" },
+      { "icon": "🕐", "nama": "Resepsionis 24 Jam" }
+    ],
+
+    "tempat_terdekat": [
+      "Maluku City Mall (1.04 km)",
+      "Masjid Al Fatah (2.74 km)",
+      "Ambon Manise Square (13 m)",
+      "Happy Kids Klinik (1.24 km)",
+      "Universitas Pattimura (2.70 km)"
+    ],
+
+    "status": "Siap Pakai",
+    "bintang": "⭐ ⭐ ⭐ ⭐",
+    "pembayaran": "Kartu Kredit & Transfer",
+    "keamanan": "CCTV & Security 24 Jam",
+
+    "gambar_1": "images/hotel-santika/gedung.jpeg",
+    "gambar_2": "images/hotel-santika/ruang-tidur.jpeg",
+    "gambar_3": "images/hotel-santika/restoran.jpeg",
+    "gambar_4": "images/hotel-santika/ruang-tamu.jpeg",
+    "gambar_5": "images/hotel-santika/toilet.jpeg",
+    "gambar_6": "images/hotel-santika/meja-makan.jpeg",
+
+    "harga_standar":"Rp180.000",
+    "images_standar":"images/hotel-wayame/standar.jpeg",
+    "harga_medium":"Rp1.300.000",
+    "images_medium":"images/hotel-wayame/medium.jpeg",
+    "harga_mewah":"Rp2.000.000",
+    "images_mewah":"images/hotel-wayame/mewah.jpeg",
+    
+    "fasilitas": "Hotel Santika Premiere menyediakan berbagai fasilitas seperti Wi-Fi Gratis, Restoran dalam hotel, AC di setiap kamar, serta layanan antar-jemput bandara. Tersedia juga ruang meeting dan kolam renang outdoor.",
+    "lokasi_strategis": "Hotel ini berada di pusat kota Ambon, dekat dengan pusat perbelanjaan, kantor pemerintahan, dan destinasi wisata budaya. Lokasinya sangat strategis bagi pelancong bisnis maupun liburan.",
+    "alasan": "Hotel Santika Premiere Ambon terletak di area / kota Sirimau. Resepsionis 24 jam tersedia untuk melayani Anda, dari check-in hingga check-out, atau bantuan apa pun yang Anda butuhkan. Jika Anda menginginkan lebih, jangan ragu untuk bertanya kepada resepsionis, kami selalu siap melayani Anda. Wi-Fi tersedia di area umum properti untuk membantu Anda tetap terhubung dengan keluarga dan teman.",
+    "tipe_kamar": [
+      "Deluxe - Termasuk sarapan",
+      "Family Suite - Cocok untuk keluarga",
+      "Executive Room - Dengan area kerja",
+      "Luxury Room - Kamar mewah dengan kolam renang pribadi"
+    ],
+    "kebijakan_hotel": [
+      "Check-in mulai pukul 14.00",
+      "Check-out maksimal pukul 12.00",
+      "Gratis pembatalan hingga 24 jam sebelum check-in"
+    ]
+  },
+
+
+  "kamari-hotel": {
+    "name": "Kamari Hotel Ambon",
+    "address": "Jl. Kakialy No.25, Kedawetan, Kel. Rijali, Kec. Sirimau, Kota Ambon, Maluku",
+    "lokasi": "https://maps.app.goo.gl/7GWx6BqM4Kq5L5WF7",
+    "description": "Nyaman, bersih, dan strategis. Cocok untuk liburan atau perjalanan bisnis di Ambon.",
+    "luas": "600 m²",
+
+    "fasilitas_utama": [
+      { "icon": "🛏️", "nama": "AC" },
+      { "icon": "🚗", "nama": "Parkir" },
+      { "icon": "🍽️", "nama": "Restoran" },
+      { "icon": "🛗", "nama": "Lift" },
+      { "icon": "🏊", "nama": "Kolam Renang" },
+      { "icon": "📶", "nama": "WIFI" },
+      { "icon": "🕐", "nama": "Resepsionis 24 Jam" }
+    ],
+
+    "tempat_terdekat": [
+      "Maluku City Mall (1.04 km)",
+      "Masjid Al Fatah (2.74 km)",
+      "Ambon Manise Square (13 m)",
+      "Happy Kids Klinik (1.24 km)",
+      "Universitas Pattimura (2.70 km)"
+    ],
+
+    "status": "Siap Pakai",
+    "bintang": "⭐ ⭐ ⭐",
+    "pembayaran": "Kartu Kredit & Transfer",
+    "keamanan": "CCTV & Security 24 Jam",
+
+    "gambar_1": "images/hotel-kamari/kamari-hotel.jpg",
+    "gambar_2": "images/hotel-santika/ruang-tidur.jpeg",
+    "gambar_3": "images/hotel-santika/restoran.jpeg",
+    "gambar_4": "images/hotel-santika/ruang-tamu.jpeg",
+    "gambar_5": "images/hotel-santika/toilet.jpeg",
+    "gambar_6": "images/hotel-santika/meja-makan.jpeg",
+
+    "harga_standar":"Rp350.000",
+    "images_standar":"images/hotel-wayame/standar.jpeg",
+    "harga_medium":"Rp600.000",
+    "images_medium":"images/hotel-wayame/medium.jpeg",
+    "harga_mewah":"Rp1.500.000",
+    "images_mewah":"images/hotel-wayame/mewah.jpeg",
+    
+    "fasilitas": "Kamari Hotel Ambon menyediakan berbagai fasilitas seperti Wi-Fi Gratis, Restoran dalam hotel, AC di setiap kamar, serta layanan antar-jemput bandara. Tersedia juga ruang meeting dan kolam renang outdoor.",
+    "lokasi_strategis": "Hotel ini berada di pusat kota Ambon, dekat dengan pusat perbelanjaan, kantor pemerintahan, dan destinasi wisata budaya. Lokasinya sangat strategis bagi pelancong bisnis maupun liburan.",
+    "alasan": "Kamari Hotel terletak di area / kota Sirimau. Resepsionis 24 jam tersedia untuk melayani Anda, dari check-in hingga check-out, atau bantuan apa pun yang Anda butuhkan. Jika Anda menginginkan lebih, jangan ragu untuk bertanya kepada resepsionis, kami selalu siap melayani Anda. Wi-Fi tersedia di area umum properti untuk membantu Anda tetap terhubung dengan keluarga dan teman.",
+    "tipe_kamar": [
+      "Deluxe - Termasuk sarapan",
+      "Family Suite - Cocok untuk keluarga",
+      "Executive Room - Dengan area kerja",
+      "Luxury Room - Kamar mewah dengan kolam renang pribadi"
+    ],
+    "kebijakan_hotel": [
+      "Check-in mulai pukul 14.00",
+      "Check-out maksimal pukul 12.00",
+      "Gratis pembatalan hingga 24 jam sebelum check-in"
+    ]
+  },
+
+  
+  "stori-hotel": {
+    "name": "Stori Hotel Ambon",
+    "address": "Jl. Cendrawasih No.20, Pusat Kota Ambon, Kota Ambon, Maluku",
+    "lokasi": "https://maps.app.goo.gl/ibVQvPanJJzfk8qN7",
+    "description": "Nyaman, bersih, dan strategis. Cocok untuk liburan atau perjalanan bisnis di Ambon.",
+    "luas": "600 m²",
+
+    "fasilitas_utama": [
+      { "icon": "🛏️", "nama": "AC" },
+      { "icon": "🚗", "nama": "Parkir" },
+      { "icon": "🍽️", "nama": "Restoran" },
+      { "icon": "🛗", "nama": "Lift" },
+      { "icon": "🏊", "nama": "Kolam Renang (Untuk kelas menengah hingga mewah)" },
+      { "icon": "📶", "nama": "WIFI" },
+      { "icon": "🕐", "nama": "Resepsionis" }
+    ],
+
+    "tempat_terdekat": [
+      "Maluku City Mall (1.04 km)",
+      "Masjid Al Fatah (2.74 km)",
+      "Ambon Manise Square (13 m)",
+      "Happy Kids Klinik (1.24 km)",
+      "Universitas Pattimura (2.70 km)"
+    ],
+
+    "status": "Siap Pakai",
+    "bintang": "⭐ ⭐ ⭐",
+    "pembayaran": "Kartu Kredit & Transfer",
+    "keamanan": "CCTV & Security 24 Jam",
+
+    "gambar_1": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10034219-1000x800-FIT_AND_TRIM-2f6bd9b80cfc11748e6331314322186f.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-80,w-640",
+    "gambar_2": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10034219-1152x768-FIT_AND_TRIM-468da6f975e494407f24e18d32250b0a.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-80,w-640",
+    "gambar_3": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10034219-1152x768-FIT_AND_TRIM-a81f9e78de7116dae7138d53271fa5a6.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-80,w-640",
+    "gambar_4": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10034219-1000x667-FIT_AND_TRIM-21c4b6302dec726acd00fa4d530458a3.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-80,w-640",
+    "gambar_5": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10034219-1152x768-FIT_AND_TRIM-156dc2f8de6aaa82f49e5feb4ad0ebda.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-80,w-640",
+    "gambar_6": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10034219-768x1152-FIT_AND_TRIM-aa4f8a76389f484cfd6ebc809c65d10a.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-80,w-640",
+    "gambar_7": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10034219-4043x2891-FIT_AND_TRIM-387548738c76e18a98563089326daf16.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-80,w-640",
+    "gambar_8": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10034219-1152x768-FIT_AND_TRIM-a81f9e78de7116dae7138d53271fa5a6.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-80,w-640",
+
+    "harga_standar":"Rp195.000",
+    "images_standar":"images/hotel-wayame/standar.jpeg",
+    "harga_medium":"Rp800.000",
+    "images_medium":"images/hotel-wayame/medium.jpeg",
+    "harga_mewah":"Rp1.600.000",
+    "images_mewah":"images/hotel-wayame/mewah.jpeg",
+    
+    "fasilitas": "Stori Hotel Ambon menyediakan berbagai fasilitas seperti Wi-Fi Gratis, Restoran dalam hotel, AC di setiap kamar, serta layanan antar-jemput bandara. Tersedia juga ruang meeting dan kolam renang outdoor.",
+    "lokasi_strategis": "Hotel ini berada di pusat kota Ambon, dekat dengan pusat perbelanjaan, kantor pemerintahan, dan destinasi wisata budaya. Lokasinya sangat strategis bagi pelancong bisnis maupun liburan.",
+    "alasan": "Stori Hotel Ambon terletak di Jl. Cendrawasih No.20. Resepsionis tersedia untuk melayani Anda, dari check-in hingga check-out, atau bantuan apa pun yang Anda butuhkan. Jika Anda menginginkan lebih, jangan ragu untuk bertanya kepada resepsionis, kami selalu siap melayani Anda. Wi-Fi tersedia di area umum properti untuk membantu Anda tetap terhubung dengan keluarga dan teman.",
+    "tipe_kamar": [
+      "Deluxe - Termasuk sarapan",
+      "Family Suite - Cocok untuk keluarga",
+      "Executive Room - Dengan area kerja",
+      "Luxury Room - Kamar mewah dengan kolam renang pribadi"
+    ],
+    "kebijakan_hotel": [
+      "Check-in mulai pukul 14.00",
+      "Check-out maksimal pukul 12.00",
+      "Gratis pembatalan hingga 24 jam sebelum check-in"
+    ]
+  },
+
+  
+  "marina-hotel": {
+    "name": "Marina Hotel",
+    "address": "Jl. Yan Pays 16, Pelabuhan, Kota Ambon, Maluku",
+    "lokasi": "https://maps.app.goo.gl/pQsP3T8a1JkfQNHH8",
+    "description": "Nyaman untuk kelas menengah, bersih, dan strategis. Cocok untuk liburan atau perjalanan bisnis di Ambon.",
+    "luas": "600 m²",
+
+    "fasilitas_utama": [
+      { "icon": "🛏️", "nama": "AC" },
+      { "icon": "🚗", "nama": "Parkir" },
+      { "icon": "🍽️", "nama": "Restoran" },
+      { "icon": "🛗", "nama": "Lift" },
+      { "icon": "🏊", "nama": "Kolam Renang (Untuk kelas menengah hingga mewah)" },
+      { "icon": "📶", "nama": "WIFI" },
+      { "icon": "🕐", "nama": "Resepsionis" }
+    ],
+
+    "tempat_terdekat": [
+      "Maluku City Mall (1.04 km)",
+      "Masjid Al Fatah (1 km)",
+      "Ambon Manise Square (13 m)",
+      "Happy Kids Klinik (1.24 km)",
+      "Universitas Pattimura (2.70 km)"
+    ],
+
+    "status": "Siap Pakai",
+    "bintang": "⭐ ⭐ ⭐",
+    "pembayaran": "Kartu Kredit & Transfer",
+    "keamanan": "CCTV & Security 24 Jam",
+
+    "gambar_1": "images/marina-hotel/marina-hotel.jpg",
+    "gambar_2": "images/hotel-santika/ruang-tidur.jpeg",
+    "gambar_3": "images/hotel-santika/restoran.jpeg",
+    "gambar_4": "images/hotel-santika/ruang-tamu.jpeg",
+    "gambar_5": "images/hotel-santika/toilet.jpeg",
+    "gambar_6": "images/hotel-santika/meja-makan.jpeg",
+
+    "harga_standar":"Rp250.000",
+    "images_standar":"images/hotel-wayame/standar.jpeg",
+    "harga_medium":"Rp800.000",
+    "images_medium":"images/hotel-wayame/medium.jpeg",
+    "harga_mewah":"Rp1.400.000",
+    "images_mewah":"images/hotel-wayame/mewah.jpeg",
+    
+    "fasilitas": "Marina Hotel menyediakan berbagai fasilitas seperti Wi-Fi Gratis, Restoran dalam hotel, AC di setiap kamar, serta bar. Tersedia juga ruang meeting dan kolam renang outdoor.",
+    "lokasi_strategis": "Hotel ini berada di Pelabulan, dekat dengan pusat perbelanjaan, kantor pemerintahan, dan destinasi wisata budaya. Lokasinya sangat strategis bagi pelancong bisnis maupun liburan.",
+    "alasan": "Marina Hotel sangat cocok untuk bersantai sambil menikmati pemandangan laut Kota Ambon. Resepsionis tersedia untuk melayani Anda, dari check-in hingga check-out, atau bantuan apa pun yang Anda butuhkan. Jika Anda menginginkan lebih, jangan ragu untuk bertanya kepada resepsionis, kami selalu siap melayani Anda. Wi-Fi tersedia di area umum properti untuk membantu Anda tetap terhubung dengan keluarga dan teman.",
+    "tipe_kamar": [
+      "Deluxe - Termasuk sarapan",
+      "Family Suite - Cocok untuk keluarga",
+      "Executive Room - Dengan area kerja",
+      "Luxury Room - Kamar mewah dengan kolam renang pribadi"
+    ],
+    "kebijakan_hotel": [
+      "Check-in mulai pukul 14.00",
+      "Check-out maksimal pukul 12.00",
+      "Gratis pembatalan hingga 24 jam sebelum check-in"
+    ]
+  },
+
+  
+  "RumaRuma": {
+    "name": "RUMARUMA FERVET RESIDENCE AMBON",
+    "address": "Jl. DR. Kayadoe, Kel. Wainutu, Kec. Nusaniwe, Kota Ambon, Maluku",
+    "lokasi": "https://maps.app.goo.gl/onBVS915yNdfTFCv5",
+    "description": "Nyaman untuk kelas menengah, bersih, dan strategis. Cocok untuk liburan atau perjalanan bisnis di Ambon.",
+    "luas": "600 m²",
+
+    "fasilitas_utama": [
+      { "icon": "🛏️", "nama": "AC" },
+      { "icon": "🚗", "nama": "Parkir" },
+      { "icon": "🍽️", "nama": "Restoran" },
+      { "icon": "📶", "nama": "WIFI" },
+      { "icon": "🕐", "nama": "Resepsionis" }
+    ],
+
+    "tempat_terdekat": [
+      "Maluku City Mall (1.04 km)",
+      "Masjid Al Fatah (1 km)",
+      "Ambon Manise Square (13 m)",
+      "Happy Kids Klinik (1.24 km)",
+      "Universitas Pattimura (2.70 km)"
+    ],
+
+    "status": "Siap Pakai",
+    "bintang": "⭐ ⭐",
+    "pembayaran": "Kartu Kredit & Transfer",
+    "keamanan": "CCTV & Security 24 Jam",
+
+    "gambar_1": "images/RUMARUMA-FERVET.jpeg",
+    "gambar_2": "images/hotel-santika/ruang-tidur.jpeg",
+    "gambar_3": "images/hotel-santika/restoran.jpeg",
+    "gambar_4": "images/hotel-santika/ruang-tamu.jpeg",
+    "gambar_5": "images/hotel-santika/toilet.jpeg",
+    "gambar_6": "images/hotel-santika/meja-makan.jpeg",
+
+    "harga_standar":"Rp220.000",
+    "images_standar":"images/hotel-wayame/standar.jpeg",
+    "harga_medium":"Rp400.000",
+    "images_medium":"images/hotel-wayame/medium.jpeg",
+    "harga_mewah":"Rp600.000",
+    "images_mewah":"images/hotel-wayame/mewah.jpeg",
+    
+    "fasilitas": "RUMARUMA FERVET RESIDENCE AMBON menyediakan berbagai fasilitas seperti Wi-Fi Gratis, Restoran dalam hotel, AC di setiap kamar, dan layanan antar jemput bandara.",
+    "lokasi_strategis": "Penginapan ini sangat cocok untuk anda yang sedang berpergian namun ingin mendapatkan tempat menginap dengan biaya yang terjangkau dan mendapatkan fasilitas yang mengesankan.",
+    "alasan": "RUMARUMA FERVET RESIDENCE AMBON ini sangat direkomendasikan bagi para wisatawan yang ingin menetap selama beberapa waktu dengan biaya yang terjangkau. Resepsionis tersedia untuk melayani Anda, dari check-in hingga check-out, atau bantuan apa pun yang Anda butuhkan. Jika Anda menginginkan lebih, jangan ragu untuk bertanya kepada resepsionis, kami selalu siap melayani Anda. Wi-Fi tersedia di area umum properti untuk membantu Anda tetap terhubung dengan keluarga dan teman.",
+    "tipe_kamar": [
+      "Deluxe - Termasuk sarapan",
+      "Family Suite - Cocok untuk keluarga",
+      "Executive Room - Dengan area kerja",
+      "Luxury Room - Kamar mewah dengan kolam renang pribadi"
+    ],
+    "kebijakan_hotel": [
+      "Check-in mulai pukul 14.00",
+      "Check-out maksimal pukul 12.00",
+      "Gratis pembatalan hingga 24 jam sebelum check-in"
+    ]
+  },
+
+  
+  "the-city-hotel": {
+    "name": "The City Hotel",
+    "address": "Jl. Tulukabessy No.39, Kota Ambon, Maluku",
+    "lokasi": "https://maps.app.goo.gl/VhRaGZn9bTir3ULd8",
+    "description": "Nyaman untuk kelas menengah, bersih, dan strategis. Cocok untuk liburan atau perjalanan bisnis di Ambon.",
+    "luas": "600 m²",
+
+    "fasilitas_utama": [
+      { "icon": "🛏️", "nama": "AC" },
+      { "icon": "🚗", "nama": "Parkir" },
+      { "icon": "🍽️", "nama": "Restoran" },
+      { "icon": "🛗", "nama": "Lift" },
+      { "icon": "🏊", "nama": "Kolam Renang (Untuk kelas menengah hingga mewah)" },
+      { "icon": "📶", "nama": "WIFI" },
+      { "icon": "🕐", "nama": "Resepsionis 24 jam" }
+    ],
+
+    "tempat_terdekat": [
+      "Maluku City Mall (1.04 km)",
+      "Masjid Al Fatah (1 km)",
+      "Ambon Manise Square (13 m)",
+      "Happy Kids Klinik (1.24 km)",
+      "Universitas Pattimura (2.70 km)"
+    ],
+
+    "status": "Siap Pakai",
+    "bintang": "⭐ ⭐ ⭐",
+    "pembayaran": "Kartu Kredit & Transfer",
+    "keamanan": "CCTV & Security 24 Jam",
+
+    "gambar_1": "images/hotel-kamari/kamari-hotel.jpg",
+    "gambar_2": "images/hotel-santika/ruang-tidur.jpeg",
+    "gambar_3": "images/hotel-santika/restoran.jpeg",
+    "gambar_4": "images/hotel-santika/ruang-tamu.jpeg",
+    "gambar_5": "images/hotel-santika/toilet.jpeg",
+    "gambar_6": "images/hotel-santika/meja-makan.jpeg",
+
+    "harga_standar":"Rp300.000",
+    "images_standar":"images/hotel-wayame/standar.jpeg",
+    "harga_medium":"Rp400.000",
+    "images_medium":"images/hotel-wayame/medium.jpeg",
+    "harga_mewah":"Rp600.000",
+    "images_mewah":"images/hotel-wayame/mewah.jpeg",
+    
+    "fasilitas": "The City Hotel menyediakan berbagai fasilitas seperti Wi-Fi Gratis, Restoran dalam hotel, AC di setiap kamar, serta layanan antar-jemput bandara. Tersedia juga ruang meeting dan kolam renang outdoor.",
+    "lokasi_strategis": "Hotel mewah di bangunan modern ini berjarak 10 menit berjalan kaki dari Gong Perdamaian Dunia, 3 km dari terminal feri Port of Ambon, dan 4 km dari Jembatan Merah Putih yang terkenal.",
+    "alasan": "The City Hotel terletak di area / kota Sirimau. Resepsionis 24 jam tersedia untuk melayani Anda, dari check-in hingga check-out, atau bantuan apa pun yang Anda butuhkan. Jika Anda menginginkan lebih, jangan ragu untuk bertanya kepada resepsionis, kami selalu siap melayani Anda. Wi-Fi tersedia di area umum properti untuk membantu Anda tetap terhubung dengan keluarga dan teman.",
+    "tipe_kamar": [
+      "Deluxe - Termasuk sarapan",
+      "Family Suite - Cocok untuk keluarga",
+      "Executive Room - Dengan area kerja",
+      "Luxury Room - Kamar mewah dengan kolam renang pribadi"
+    ],
+    "kebijakan_hotel": [
+      "Check-in mulai pukul 14.00",
+      "Check-out maksimal pukul 12.00",
+      "Gratis pembatalan hingga 24 jam sebelum check-in"
+    ]
+  },
+  "the-natsepa-resort": {
+    "name": "The Natsepa Resort & Conference Center",
+    "address": "Jl. Raya Natsepa No.36 Salahutu, Kec. Baguala, Kota Ambon, Maluku",
+    "lokasi": "https://maps.app.goo.gl/VhRaGZn9bTir3ULd8",
+    "description": "Menginap di Natsepa Resort & Conference Center adalah pilihan yang baik ketika Anda mengunjungi Baguala. Resepsionis 24 jam tersedia untuk Anda, mulai dari Check-in hingga Check-out, atau bantuan apa pun yang anda butuhkan, jika anda menginginkan lebih, jangan ragu untuk bertanya kepada resepsionis, kami selalu siap melayani Anda. Wifi tersedia di area umum properti untuk membantu Anda tetap terhubung dengan keluarga dan teman.",
+    "luas": "600 m²",
+
+    "fasilitas_utama": [
+      { "icon": "🛏️", "nama": "AC" },
+      { "icon": "🚗", "nama": "Parkir" },
+      { "icon": "🍽️", "nama": "Restoran" },
+      { "icon": "🛗", "nama": "Lift" },
+      { "icon": "🏊", "nama": "Kolam Renang" },
+      { "icon": "📶", "nama": "WIFI" },
+      { "icon": "🕐", "nama": "Resepsionis 24 jam" }
+    ],
+
+    "tempat_terdekat": [
+      "Pantai Natsepa (616 m))",
+      "Politeknik Kesehatan Kemenkes Maluku (4.90 km)",
+      "RSUD Dr. H Ishak Umarella (7.46 km)"
+    ],
+
+    "status": "Siap Pakai",
+    "bintang": "⭐ ⭐ ⭐ ⭐",
+    "pembayaran": "Kartu Kredit & Transfer",
+    "keamanan": "CCTV & Security 24 Jam",
+
+    "gambar_1": "images/hotel-kamari/kamari-hotel.jpg",
+    "gambar_2": "images/hotel-santika/ruang-tidur.jpeg",
+    "gambar_3": "images/hotel-santika/restoran.jpeg",
+    "gambar_4": "images/hotel-santika/ruang-tamu.jpeg",
+    "gambar_5": "images/hotel-santika/toilet.jpeg",
+    "gambar_6": "images/hotel-santika/meja-makan.jpeg",
+
+    "harga_standar":"Rp535.000",
+    "images_standar":"images/hotel-wayame/standar.jpeg",
+    "harga_medium":"Rp2.500.000",
+    "images_medium":"images/hotel-wayame/medium.jpeg",
+    "harga_mewah":"Rp3.000.000",
+    "images_mewah":"images/hotel-wayame/mewah.jpeg",
+    
+    "fasilitas": "The City Hotel menyediakan berbagai fasilitas seperti Wi-Fi Gratis, Restoran dalam hotel, AC di setiap kamar, serta layanan antar-jemput bandara. Tersedia juga ruang meeting dan kolam renang outdoor.",
+    "lokasi_strategis": "Hotel mewah di bangunan modern ini berjarak 10 menit berjalan kaki dari Gong Perdamaian Dunia, 3 km dari terminal feri Port of Ambon, dan 4 km dari Jembatan Merah Putih yang terkenal.",
+    "alasan": "The City Hotel terletak di area / kota Sirimau. Resepsionis 24 jam tersedia untuk melayani Anda, dari check-in hingga check-out, atau bantuan apa pun yang Anda butuhkan. Jika Anda menginginkan lebih, jangan ragu untuk bertanya kepada resepsionis, kami selalu siap melayani Anda. Wi-Fi tersedia di area umum properti untuk membantu Anda tetap terhubung dengan keluarga dan teman.",
+    "tipe_kamar": [
+      "Deluxe - Termasuk sarapan",
+      "Family Suite - Cocok untuk keluarga",
+      "Executive Room - Dengan area kerja",
+      "Luxury Room - Kamar mewah dengan kolam renang pribadi"
+    ],
+    "kebijakan_hotel": [
+      "Check-in mulai pukul 14.00",
+      "Check-out maksimal pukul 12.00",
+      "Gratis pembatalan hingga 24 jam sebelum check-in"
+    ]
+  }
+}

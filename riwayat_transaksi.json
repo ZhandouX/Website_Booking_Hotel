@@ -1,0 +1,20 @@
+[
+    {
+        "order_id": "INV-1750384693",
+        "nama": "yuan",
+        "email": "youanthesuhidonora@gmail.com",
+        "hp": "082191520697",
+        "total": 50000,
+        "status": "pending",
+        "waktu": "2025-06-20 01:58:15"
+    },
+    {
+        "order_id": "INV-1750384741",
+        "nama": "yuan",
+        "email": "youanthesuhidonora@gmail.com",
+        "hp": "082191520697",
+        "total": 50000,
+        "status": "pending",
+        "waktu": "2025-06-20 01:59:02"
+    }
+]
