@@ -8,12 +8,9 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DaftarKamarController;
 use App\Http\Controllers\HasilPencarianController;
 use App\Http\Controllers\PemesananKamarController;
-use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TeamController;
-use App\Http\Controllers\TestimonialsController;
 use App\Http\Controllers\SignatureController;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PropertiesController;
 use App\Http\Controllers\HotelController;
 use App\Http\Controllers\DetailHotelController;
@@ -59,7 +56,6 @@ Route::get('/about_us/about', [AboutController::class, 'about'])->name('about_us
 Route::get('/about_us/contact', [ContactController::class, 'contact'])->name('about_us.contact');
 Route::get('/about_us/service', [ServiceController::class, 'service'])->name('about_us.service');
 Route::get('/about_us/team', [TeamController::class, 'team'])->name('about_us.team');
-Route::get('/about_us/testimonial', [TestimonialsController::class, 'testimonial'])->name('about_us.testimonial');
 
 // Hotel & Kamar
 Route::get('/properties', [PropertiesController::class, 'propert'])->name('properties');

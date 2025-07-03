@@ -22,6 +22,8 @@
             <div class="row g-4" id="daftarKamar"></div>
         </div>
     </div>
+
+    @include('partials.newsletter')
 @endsection
 
 @push('scripts')
