@@ -16,5 +16,23 @@
         "total": 150000,
         "status": "pending",
         "waktu": "2025-07-02 15:29:23"
+    },
+    {
+        "order_id": "INV-1751588513",
+        "nama": "YYYY",
+        "email": "zhandou@gmail.com",
+        "hp": "0937823632",
+        "total": 1250000,
+        "status": "pending",
+        "waktu": "2025-07-04 00:21:55"
+    },
+    {
+        "order_id": "INV-1751697448",
+        "nama": "YYYY",
+        "email": "zhandou@gmail.com",
+        "hp": "0937823632",
+        "total": 900000,
+        "status": "pending",
+        "waktu": "2025-07-05 06:37:30"
     }
 ]

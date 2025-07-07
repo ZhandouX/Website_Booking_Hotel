@@ -39,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-                <a class="btn btn-primary py-3 px-5 mt-2" href="">Lihat Selengkapnya</a>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="{{ route('about_us.about') }}">Lihat Selengkapnya</a>
             </div>
             <div class="col-lg-6">
                 <div class="row g-3">

@@ -3,6 +3,9 @@
     --primary: #FEA116;
     --light: #F1F8FF;
     --dark: #0F172B;
+    --success: #01583b;
+    --confirm: #0d6efd;
+    --secondary: #474747;
 }
 
 .fw-medium {
@@ -71,14 +74,57 @@
     color: #FFFFFF;
 }
 
+.btn.btn-secondary:hover {
+    color: var(--secondary);
+}
+
 .btn.btn-dark:hover {
     color: #000000;
 }
 
-.btn.btn.btn-outline-secondary:hover {
-    color: #ff9100;
+.btn.btn-outline-secondary:hover {
+    background-color: var(--secondary);
+    color: white;
 }
 
+.btn.btn-success:hover {
+    color:var(--success)
+}
+
+.btn.btn-outline-success:hover {
+    background-color: #009966;
+    color: white;
+}
+
+.btn.btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.btn.btn-confirm {
+    background-color: var(--confirm);
+    color: white;
+}
+
+.btn.btn-confirm:hover {
+    background-color: white;
+    color: var(--confirm);
+    border-color: var(--confirm);
+}
+
+.btn.btn-warning:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background-color: white;
+}
+
+.bi.bi-chat-dots {
+    color: white;
+}
+
+.bi.bi-chat-dots:hover { 
+    color: var(--primary);
+}
 
 .btn-square {
     width: 38px;
@@ -497,6 +543,8 @@
 .footer .btn.btn-link:hover {
     letter-spacing: 1px;
     box-shadow: none;
+    background-color: var(--dark);
+    color: var(--primary);
 }
 
 .footer .copyright {
@@ -811,7 +859,7 @@
     }
 }
 
-.logo-loading{
+.logo-loading {
     max-height: 60px;
     height: auto;
     width: auto;
@@ -822,4 +870,156 @@
 
 .head-email:hover {
     color: #d4af37;
+}
+
+.feature-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    background-color: var(--bs-primary);
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.btn-light:hover {
+    background-color: var(--dark);
+    color: white;
+}
+
+.zoomIn {
+    transition: transform 0.3s ease;
+}
+
+.zoomIn:hover {
+    transform: scale(1.05);
+}
+
+.fadeInUp {
+    transition: transform 0.3s ease;
+}
+
+.fadeInUp:hover {
+    transform: scale(1.05);
+}
+
+.biodata-list .list-group-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 10px;
+    border: none;
+    padding: 8px 0;
+}
+
+.biodata-list .label {
+    width: 140px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.biodata-list .value {
+    flex: 1;
+    color: #212529;
+}
+
+.modal-body .profile-img {
+    border: 5px solid #0d6efd;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: untuk fade dan slide transisi tambahan */
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.show-on-load .modal-dialog {
+  animation: slideFadeIn 0.6s ease-in-out;
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.bot-message,
+.user-message {
+    max-width: 90%;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    text-align: right;
+}
+
+.bot-message {
+    background-color: #e9ecef;
+    color: #000;
+    align-self: flex-start;
+}
+
+.user-message {
+    background-color: #ffc107;
+    color: #000;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.chat-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.rounded-ai {
+    border-radius: 20px;
+}
+
+.btn-ai {
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Style DevHelp */
+.modal-devhelp {
+    background: linear-gradient(145deg, #fb923c 0%, #f43f5e 100%);
+}
+
+.dev-help:hover {
+    color: var(--primary);
+}
+
+
+.account:hover {
+    color: var(--primary);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: #86b7fe;
 }

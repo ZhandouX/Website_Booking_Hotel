@@ -84,137 +84,135 @@
     </div>
 </div>
 
-<!-- Reset -->
+<!-- Informasi Lengkap Hotel -->
 <div class="container-xxl py-5 bg-light">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10">
-                <h2 class="text-center mb-5 text-primary">Informasi Lengkap Hotel</h2>
-                <div class="accordion" id="hotelDetailsAccordion">
+                <h2 class="text-center mb-5 text-primary fw-bold">🛎️ Informasi Lengkap Hotel</h2>
 
-                    <!-- Fasilitas Hotel -->
-                    <div class="accordion-item">
+                <div class="accordion shadow-sm rounded-3" id="hotelDetailsAccordion">
+
+                    <!-- Template Accordion Item -->
+                    <div class="accordion-item border-0 mb-2 rounded-3 overflow-hidden">
                         <h2 class="accordion-header" id="headingFasilitas">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFasilitas" aria-expanded="true"
-                                aria-controls="collapseFasilitas">
-                                🏨 Fasilitas Hotel
+                            <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFasilitas" aria-expanded="true" aria-controls="collapseFasilitas">
+                                🏨 <span class="ms-2">Fasilitas Hotel</span>
                             </button>
                         </h2>
                         <div id="collapseFasilitas" class="accordion-collapse collapse show"
                             aria-labelledby="headingFasilitas" data-bs-parent="#hotelDetailsAccordion">
                             <div class="accordion-body" id="deskripsi-fasilitas">
-                                <!-- Diisi dinamis melalui JS -->
+                                <!-- Diisi dinamis -->
                             </div>
                         </div>
                     </div>
 
-                    <!-- Lokasi Strategis -->
-                    <div class="accordion-item">
+                    <div class="accordion-item border-0 mb-2 rounded-3 overflow-hidden">
                         <h2 class="accordion-header" id="headingLokasi">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseLokasi" aria-expanded="false" aria-controls="collapseLokasi">
-                                📍 Lokasi Strategis
+                                📍 <span class="ms-2">Lokasi Strategis</span>
                             </button>
                         </h2>
-                        <div id="collapseLokasi" class="accordion-collapse collapse" aria-labelledby="headingLokasi"
-                            data-bs-parent="#hotelDetailsAccordion">
-                            <div class="accordion-body" id="deskripsi-lokasi">
-                                <!-- Diisi dinamis melalui JS -->
-                            </div>
+                        <div id="collapseLokasi" class="accordion-collapse collapse"
+                            aria-labelledby="headingLokasi" data-bs-parent="#hotelDetailsAccordion">
+                            <div class="accordion-body" id="deskripsi-lokasi"></div>
                         </div>
                     </div>
 
-                    <!-- Alasan Memilih -->
-                    <div class="accordion-item">
+                    <div class="accordion-item border-0 mb-2 rounded-3 overflow-hidden">
                         <h2 class="accordion-header" id="headingAlasan">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseAlasan" aria-expanded="false" aria-controls="collapseAlasan">
-                                ⭐ Alasan Memilih Hotel Ini
+                                ⭐ <span class="ms-2">Alasan Memilih Hotel Ini</span>
                             </button>
                         </h2>
-                        <div id="collapseAlasan" class="accordion-collapse collapse" aria-labelledby="headingAlasan"
-                            data-bs-parent="#hotelDetailsAccordion">
-                            <div class="accordion-body" id="alasan">
-                                <!-- Diisi dinamis melalui JS -->
-                            </div>
+                        <div id="collapseAlasan" class="accordion-collapse collapse"
+                            aria-labelledby="headingAlasan" data-bs-parent="#hotelDetailsAccordion">
+                            <div class="accordion-body" id="alasan"></div>
                         </div>
                     </div>
 
-                    <!-- Tipe Kamar -->
-                    <div class="accordion-item">
+                    <div class="accordion-item border-0 mb-2 rounded-3 overflow-hidden">
                         <h2 class="accordion-header" id="headingKamar">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseKamar" aria-expanded="false" aria-controls="collapseKamar">
-                                🛏️ Tipe Kamar
+                                🛏️ <span class="ms-2">Tipe Kamar</span>
                             </button>
                         </h2>
-                        <div id="collapseKamar" class="accordion-collapse collapse" aria-labelledby="headingKamar"
-                            data-bs-parent="#hotelDetailsAccordion">
+                        <div id="collapseKamar" class="accordion-collapse collapse"
+                            aria-labelledby="headingKamar" data-bs-parent="#hotelDetailsAccordion">
                             <div class="accordion-body">
-                                <ul id="tipe-kamar" class="list-unstyled small ps-3">
-                                    <!-- Diisi dinamis melalui JS -->
-                                </ul>
+                                <ul id="tipe-kamar" class="list-unstyled small ps-3"></ul>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Kebijakan Hotel -->
-                    <div class="accordion-item">
+                    <div class="accordion-item border-0 mb-2 rounded-3 overflow-hidden">
                         <h2 class="accordion-header" id="headingKebijakan">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseKebijakan" aria-expanded="false"
-                                aria-controls="collapseKebijakan">
-                                📋 Kebijakan Hotel
+                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseKebijakan" aria-expanded="false" aria-controls="collapseKebijakan">
+                                📋 <span class="ms-2">Kebijakan Hotel</span>
                             </button>
                         </h2>
                         <div id="collapseKebijakan" class="accordion-collapse collapse"
                             aria-labelledby="headingKebijakan" data-bs-parent="#hotelDetailsAccordion">
-                            <div class="accordion-body" id="kebijakan-hotel">
-                                <ul id="kebijakan-hotel" class="list-unstyled small ps-3">
-                                </ul>
+                            <div class="accordion-body">
+                                <ul id="kebijakan-hotel" class="list-unstyled small ps-3"></ul>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Ulasan Pengunjung -->
-                    <div class="accordion-item">
+                    <div class="accordion-item border-0 rounded-3 overflow-hidden">
                         <h2 class="accordion-header" id="headingUlasan">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseUlasan" aria-expanded="false" aria-controls="collapseUlasan">
-                                💬 Ulasan Tamu
+                                💬 <span class="ms-2">Ulasan Tamu</span>
                             </button>
                         </h2>
-                        <div id="collapseUlasan" class="accordion-collapse collapse" aria-labelledby="headingUlasan"
-                            data-bs-parent="#hotelDetailsAccordion">
+                        <div id="collapseUlasan" class="accordion-collapse collapse"
+                            aria-labelledby="headingUlasan" data-bs-parent="#hotelDetailsAccordion">
                             <div class="accordion-body" id="ulasan-tamu">
-                                <!-- Isi ulasan dari JSON akan ditampilkan di sini -->
+                                <!-- Ulasan dari JSON -->
+                            </div>
+
+                            <!-- Form Ulasan -->
+                            <div class="card shadow-sm mt-4 border-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tinggalkan Ulasan Anda</h5>
+                                    <form id="form-ulasan">
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="nama" class="form-label">Nama</label>
+                                                <input type="text" class="form-control" id="nama" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="email" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="email" required>
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="pesan" class="form-label">Pesan/Ulasan</label>
+                                                <textarea class="form-control" id="pesan" rows="4" required></textarea>
+                                            </div>
+                                            <div class="col-12 text-end">
+                                                <button type="submit" class="btn btn-primary px-4">
+                                                    Kirim Ulasan
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                        <div class="container mt-5">
-                            <h4 class="mb-4">Tinggalkan Ulasan Anda</h4>
-                            <form id="form-ulasan">
-                                <div class="mb-3">
-                                    <label for="nama" class="form-label">Nama</label>
-                                    <input type="text" class="form-control" id="nama" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="email" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="pesan" class="form-label">Pesan/Ulasan</label>
-                                    <textarea class="form-control" id="pesan" rows="4" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Kirim Ulasan</button>
-                            </form>
-                        </div>
                     </div>
-                </div>
+                </div> <!-- end accordion -->
             </div>
         </div>
     </div>
 </div>
+
 <!-- Lightbox Gambar Hotel -->
 <div id="lightboxModal"
     class="hidden d-none position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-75 justify-content-center align-items-center z-1050"

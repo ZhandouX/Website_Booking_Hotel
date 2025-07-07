@@ -1,4 +1,8 @@
 <!-- Testimonial -->
+<div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+    <h6 class="section-title text-center text-primary text-uppercase">Testimonials</h6>
+    <h1 class="mb-5">Testimonials <span class="text-primary text-uppercase">Booking Hotels</span></h1>
+</div>
 <div class="container-xxl testimonial mt-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s" style="margin-bottom: 90px;">
     <div class="container">
         <div class="owl-carousel testimonial-carousel py-5">

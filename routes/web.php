@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ChatController;
 use App\Http\Controllers\PemesananController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session;
@@ -20,6 +21,7 @@ use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Response;
 
+// Route Json File
 Route::get('/data/{filename}', function ($filename) {
     $path = public_path('data/' . $filename);
 
@@ -33,10 +35,9 @@ Route::get('/data/{filename}', function ($filename) {
     return Response::make($file, 200)->header("Content-Type", $type);
 });
 
-
+// Route Booking Room (Transaksi MidTrans)
 Route::post('/booking/store', [PemesananController::class, 'store'])->name('booking.store');
 Route::post('/booking', [PemesananController::class, 'createSnapToken']);
-
 
 // Ulasan
 Route::get('/ambil-ulasan', [UlasanController::class, 'ambil']);
