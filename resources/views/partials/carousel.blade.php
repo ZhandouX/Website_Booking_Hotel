@@ -9,7 +9,7 @@
                         <h6
                             class="section-title text-primary text-uppercase mb-3 animated slideInDown font-title-cavas">
                             Booking</h6>
-                        <h1 class="display-3 text-white mb-4 animated slideInDown">Hotel Nyaman &
+                        <h1 class="display-3 text-light mb-4 animated slideInDown">Hotel Nyaman &
                             Terjangkau</h1>
                         <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">About
                             Us</a>
@@ -25,7 +25,7 @@
                         <h6
                             class="section-title text-primary text-uppercase mb-3 animated slideInDown font-title-cavas">
                             Booking</h6>
-                        <h1 class="display-3 text-white mb-4 animated slideInDown"> Hotel Mudah, Cepat & Aman</h1>
+                        <h1 class="display-3 text-light mb-4 animated slideInDown"> Hotel Mudah, Cepat & Aman</h1>
                         <a href="#cari" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Jelajahi
                             Hotel</a>
                         <a href="#subscribe" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Subscribe</a>

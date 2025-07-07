@@ -40,18 +40,18 @@
             <div class="col-lg-4 col-md-6">
                 <div class="room-item shadow rounded overflow-hidden">
                 <div class="position-relative">
-                    <img class="img-fluid" src="${hotel.gambar}" alt="">
+                    <img class="img-fluid" src="${hotel.gambar}" style="height: 350px;" alt="">
                     <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">Rp${hotel.harga} / kamar</small>
                 </div>
                 <div class="p-4 mt-2">
                     <div class="d-flex justify-content-between mb-3">
-                    <h5 class="mb-0">${hotel.nama}</h5>
+                    <h5 class="mb-0 text-truncate-1">${hotel.nama}</h5>
                     <div class="ps-2">${hotel.rating}</div>
                     </div>
-                    <p class="text-body mb-3">${hotel.alamat}</p>
+                    <p class="text-body mb-3 text-truncate-1">${hotel.alamat}</p>
                     <div class="d-flex justify-content-between">
-                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="detail_hotel.html?id=${hotel.id}">View Detail</a>
-                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="daftar_kamar.html?id=${hotel.id}">Book Now</a>
+                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{ route('detail_hotel') }}?id=${hotel.id}">View Detail</a>
+                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="{{ route('daftar_kamar') }}"?id=${hotel.id}">Book Now</a>
                     </div>
                 </div>
                 </div>
