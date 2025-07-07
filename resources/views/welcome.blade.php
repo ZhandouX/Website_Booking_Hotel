@@ -173,7 +173,7 @@
       <div class="container text-center py-5">
         <h1 class="display-5 mb-4">Siap Liburan? Pesan Kamar Hotel Sekarang!</h1>
         <p class="mb-4">Jangan lewatkan promo dan penawaran spesial dari Booking Hotels</p>
-        <a href="/daftar-hotel.html" class="btn btn-light py-3 px-5">Mulai Booking</a>
+        <a href="{{ route('login') }}" class="btn btn-light py-3 px-5">Mulai Booking</a>
       </div>
     </div>
 
