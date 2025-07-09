@@ -7,5 +7,14 @@
         "total": 150000,
         "status": "pending",
         "waktu": "2025-07-07 14:17:51"
+    },
+    {
+        "order_id": "INV-1752034489",
+        "nama": "admin",
+        "email": "admin@gmail.com",
+        "hp": "0832653263",
+        "total": 2600000,
+        "status": "pending",
+        "waktu": "2025-07-09 06:14:51"
     }
 ]

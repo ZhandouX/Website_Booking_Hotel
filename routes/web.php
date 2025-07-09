@@ -21,6 +21,29 @@ use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Response;
 
+
+
+
+
+// Landing Page
+Route::get('/', function () {
+    return view('welcome');
+});
+
+
+//dasbord admin
+Route::get('/dshboard_admin', function () {
+    return view('admin.index'); // ganti sesuai view dashboard kamu
+})->name('dshboard_admin');
+
+Route::prefix('admin')->name('admin.')->group(function () {
+     
+    Route::get('/hotel', [HotelController::class, 'index'])->name('hotel.index');
+
+});
+
+
+
 // Route Json File
 Route::get('/data/{filename}', function ($filename) {
     $path = public_path('data/' . $filename);
@@ -63,10 +86,6 @@ Route::get('/properties', [PropertiesController::class, 'propert'])->name('prope
 Route::get('/pemesanan_kamar', [PemesananKamarController::class, 'pemesanan_kamar'])->name('pemesanan_kamar');
 Route::get('/hasil_pencarian', [HasilPencarianController::class, 'hasil_pencarian'])->name('hasil_pencarian');
 
-// Landing Page
-Route::get('/', function () {
-    return view('welcome');
-});
 
 // API Google Maps
 Route::get('/nearby-hotels', [HotelController::class, 'getNearbyHotels']);
