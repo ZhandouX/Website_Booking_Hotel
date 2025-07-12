@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 use App\Models\Hotel;
 class HotelController extends Controller
 {
-       public function index()
-    {
-        return view('admin.hotel.index');
-    }
+    //    public function index()
+    // {
+    //     return view('admin.hotel.index');
+    // }
 
 
 

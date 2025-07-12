@@ -6,7 +6,7 @@
 @section('content')
     @include('partials.page-header', [
         'title' => 'Booking Hotels',
-        'breadcrumb' => 'Daftar Kamar'
+        'breadcrumb' => 'Daftar Kamar',
     ])
 
     {{-- Pencarian --}}
@@ -27,29 +27,39 @@
 @endsection
 
 @push('scripts')
+    {{-- Javascript Pilih Kamar --}}
+    <script>
+        fetch('{{ asset('data/detail-hotel.json') }}')
+            .then(res => res.json())
+            .then(data => {
+                const hotelId = localStorage.getItem("selectedHotelId");
+                const hotel = data[hotelId];
+                const container = document.getElementById("daftarKamar");
+                container.innerHTML = "";
+                localStorage.setItem("hotelNama", hotel.name); // ✅ <--- tambahkan ini di sini
+                const kamarList = [{
+                        tipe: 'Standar',
+                        harga: hotel.harga_standar,
+                        img: hotel.images_standar
+                    },
+                    {
+                        tipe: 'Medium',
+                        harga: hotel.harga_medium,
+                        img: hotel.images_medium
+                    },
+                    {
+                        tipe: 'Mewah',
+                        harga: hotel.harga_mewah,
+                        img: hotel.images_mewah
+                    }
+                ];
 
-{{-- Javascript Pilih Kamar --}}
-<script>
-    fetch('{{ asset('data/detail-hotel.json') }}')
-        .then(res => res.json())
-        .then(data => {
-            const hotelId = localStorage.getItem("selectedHotelId");
-            const hotel = data[hotelId];
-            const container = document.getElementById("daftarKamar");
-            container.innerHTML = "";
+                kamarList.forEach(kamar => {
+                    const div = document.createElement("div");
+                    div.className = "col-lg-4 col-md-6 wow fadeInUp room-item";
+                    div.setAttribute("data-wow-delay", "0.1s");
 
-            const kamarList = [
-                { tipe: 'Standar', harga: hotel.harga_standar, img: hotel.images_standar },
-                { tipe: 'Medium', harga: hotel.harga_medium, img: hotel.images_medium },
-                { tipe: 'Mewah', harga: hotel.harga_mewah, img: hotel.images_mewah }
-            ];
-
-            kamarList.forEach(kamar => {
-                const div = document.createElement("div");
-                div.className = "col-lg-4 col-md-6 wow fadeInUp room-item";
-                div.setAttribute("data-wow-delay", "0.1s");
-
-                div.innerHTML = `
+                    div.innerHTML = `
                     <div class="shadow rounded overflow-hidden">
                     <div class="position-relative">
                         <img class="img-fluid" src="${kamar.img}" alt="Kamar ${kamar.tipe}" style="height: 350px; object-fit: cover;">
@@ -69,18 +79,20 @@
                     </div>
                     </div>
                 `;
-                container.appendChild(div);
+                    container.appendChild(div);
+                });
             });
-        });
 
-    function pesanKamar(tipe, harga) {
-        localStorage.setItem("kamarTipe", tipe);
-        localStorage.setItem("kamarHarga", harga.replace(/[^\d]/g, ''));
-        window.location.href = "{{ route('pemesanan_kamar') }}";
-    }
+        function pesanKamar(tipe, harga) {
+            localStorage.setItem("kamarTipe", tipe);
+            localStorage.setItem("kamarHarga", harga.replace(/[^\d]/g, ''));
+            window.location.href = "{{ route('pemesanan_kamar') }}";
+        }
 
-    const pencarianRouteUrl = "{{ route('hasil_pencarian') }}";
-</script>
-<script src="{{ asset('js-01/pencarian.js') }}"></script>
-<script> new WOW().init(); </script>
+        const pencarianRouteUrl = "{{ route('hasil_pencarian') }}";
+    </script>
+    <script src="{{ asset('js-01/pencarian.js') }}"></script>
+    <script>
+        new WOW().init();
+    </script>
 @endpush

@@ -20,6 +20,8 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Response;
+use App\Http\Controllers\BookingController;
+use App\Http\Controllers\HotelJsonController;
 
 
 
@@ -33,14 +35,19 @@ Route::get('/', function () {
 
 //dasbord admin
 Route::get('/dshboard_admin', function () {
-    return view('admin.index'); // ganti sesuai view dashboard kamu
+    return view('admin.dshboard_admin.index'); // ganti sesuai view dashboard kamu
 })->name('dshboard_admin');
 
-Route::prefix('admin')->name('admin.')->group(function () {
-     
-    Route::get('/hotel', [HotelController::class, 'index'])->name('hotel.index');
+Route::get('/admin/hotel', [HotelJsonController::class, 'showData'])->name('hotel.json');
+Route::post('/admin/hotel/store', [HotelJsonController::class, 'store'])->name('hotel.store');
+Route::get('/admin/hotel/create', [HotelJsonController::class, 'create'])->name('hotel.create');
 
-});
+
+
+ Route::get('/booking', [BookingController::class, 'index'])->name('admin.booking.index');
+    Route::put('/booking/{id}/status', [BookingController::class, 'updateStatus'])->name('admin.booking.updateStatus');
+    Route::get('/booking', [BookingController::class, 'index'])->name('admin.booking.index');
+
 
 
 

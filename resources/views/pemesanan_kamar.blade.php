@@ -5,22 +5,22 @@
 @section('content')
     @include('partials.page-header', [
         'title' => 'Booking Hotels',
-        'breadcrumb' => 'Pemesanan Kamar'
+        'breadcrumb' => 'Pemesanan Kamar',
     ])
 
-  {{-- Pencarian --}}
-  @include('partials.search')
+    {{-- Pencarian --}}
+    @include('partials.search')
 
-  {{-- Form Booking --}}
-  @include('partials.form-booking')
+    {{-- Form Booking --}}
+    @include('partials.form-booking')
 
-  {{-- Welcome Section --}}
-  @include('partials.testimonials')
+    {{-- Welcome Section --}}
+    @include('partials.testimonials')
 
-  {{-- Newsletter --}}
-  @include('partials.newsletter')
+    {{-- Newsletter --}}
+    @include('partials.newsletter')
 
-  {{-- Newsletter --}}
+    {{-- Newsletter --}}
 @endsection
 
 @push('scripts')
@@ -47,7 +47,7 @@
         form.addEventListener("input", hitungTotal);
         window.onload = hitungTotal;
 
-        form.addEventListener("submit", async function (e) {
+        form.addEventListener("submit", async function(e) {
             e.preventDefault();
             const total = hitungTotal();
 
@@ -55,6 +55,8 @@
                 nama: document.getElementById("namaPemesan").value,
                 email: document.getElementById("emailPemesan").value,
                 hp: document.getElementById("hpPemesan").value,
+                hotel: localStorage.getItem("hotelNama"), // ✅ Tambahkan
+                kamar: localStorage.getItem("kamarTipe"), // ✅ Tambahkan
                 amount: total
             };
 
@@ -71,15 +73,15 @@
 
                 if (result.token) {
                     snap.pay(result.token, {
-                        onSuccess: function () {
+                        onSuccess: function() {
                             alert("Pembayaran berhasil!");
                             location.reload();
                         },
-                        onPending: function () {
+                        onPending: function() {
                             alert("Pembayaran belum selesai. Cek Midtrans.");
                             location.reload();
                         },
-                        onError: function () {
+                        onError: function() {
                             alert("Pembayaran gagal.");
                         }
                     });

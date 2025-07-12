@@ -1,20 +1,35 @@
 [
     {
-        "order_id": "INV-1751890670",
-        "nama": "reza",
-        "email": "rer@gmail.com",
+        "order_id": "INV-1752210925",
+        "nama": "dito",
+        "email": "admmin@gmail.com",
         "hp": "086577",
-        "total": 150000,
+        "hotel": "Wayame Bay Hotel",
+        "kamar": "Medium",
+        "total": 300000,
         "status": "pending",
-        "waktu": "2025-07-07 14:17:51"
+        "waktu": "2025-07-11 07:15:27"
     },
     {
-        "order_id": "INV-1752034489",
-        "nama": "admin",
-        "email": "admin@gmail.com",
+        "order_id": "INV-1752211735",
+        "nama": "rere",
+        "email": "admmin@gmail.com",
         "hp": "0832653263",
-        "total": 2600000,
+        "hotel": "Wayame Bay Hotel",
+        "kamar": "Mewah",
+        "total": 500000,
         "status": "pending",
-        "waktu": "2025-07-09 06:14:51"
+        "waktu": "2025-07-11 05:28:57"
+    },
+    {
+        "order_id": "INV-1752234641",
+        "nama": "dian",
+        "email": "dian@gmail.com",
+        "hp": "0821636712",
+        "hotel": "Wayame Bay Hotel",
+        "kamar": "Mewah",
+        "total": 750000,
+        "status": "pending",
+        "waktu": "2025-07-11 11:50:43"
     }
 ]

@@ -9,7 +9,10 @@
     @include('admin.dshboard_admin.index')
 @endsection
 @section('hotel')
-    @include('admin.hotel.index')
+    @include('hotel.json')
+@endsection
+@section('boking_hotel')
+    @include('admin.booking_hotel.index')
 @endsection
 
 @section('content')
